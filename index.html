@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="Website/css/style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <div class="nav-bar-container">
+      <a href="index.html"
+        ><img src="Website/img/A2ZLogo.png" alt="" class="logo"
+      /></a>
+      <span class="menu-icon" onclick="toggleMenu()">☰</span>
+      <div id="nav-links">
+        <a href="resources.html">Resources</a>
+        <a href="purpose.html">Purpose</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="login"><a href="login.html">Login</a></div>
+    </div>
+    <!-- Clock widget -->
+    <div class="clock">
+      <script src="https://cdn.logwork.com/widget/clock.js"></script>
+      <a
+        href="https://logwork.com/current-time-in-sydney-australia-new-south-wales"
+        class="clock-time"
+        data-style="default-numeral"
+        data-size="100"
+        >Sydney, Australia</a
+      >
+    </div>
+    <!-- Content begins here -->
+    <div class="content-container">
+      <h1 class="title-text">Recyling starts<br />with you</h1>
+      <div class="home-page-content">
+        <p>
+          The more we recycle, the less garbage winds up in the landfills and
+          incineration plants. By reusing aluminium, paper, glass, plastics, and
+          other materials, we can save production and energy costs, and reduce
+          the negative impacts that the extraction and processing of virgin
+          materials have on the environment.
+        </p>
+        <img src="Website/img/home-img.jpg" alt="" class="homepage-image" />
+      </div>
+      <div class="rec-items">
+        <h3>Commonly Recycled Items</h3>
+        <img src="Website/img/paper.jpg" alt="" />
+        <img src="Website/img/bottle.jpg" alt="" />
+        <img src="Website/img/box.jpg" alt="" />
+        <button class="learn-more-btn">
+          <a href="resources.html">Learn More</a>
+        </button>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="social-links">
+        <img src="Website/img/sm-1.png" alt="" class="social-icon" />
+        <img src="Website/img/sm-2.png" alt="" class="social-icon" />
+        <img src="Website/img/sm-3.png" alt="" class="social-icon" />
+      </div>
+      <div class="privacy-policy">Privacy</div>
+      <div class="copyright">Copyright A2Z 2024</div>
+    </div>
+    <script src="Website\js\script.js"></script>
+  </body>
+</html>
